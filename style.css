@@ -1,0 +1,19 @@
+.owncrib-btn-primary {
+	background-color: #04999D;
+	border: none;
+}
+
+.owncrib-btn-primary:hover {
+	background-color: #04999D;
+	box-shadow: 0 0 5px black;
+}
+
+.owncrib-btn-primary:active {
+	box-shadow: 0 0 10px black !important;
+	outline: none !important;
+}
+
+.owncrib-btn-primary:focus {
+	box-shadow: 0 0 10px #04999D !important;
+	background-color: #04999D;
+}
