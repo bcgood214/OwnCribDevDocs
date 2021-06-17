@@ -1,0 +1,7 @@
+body {
+  text-align: center;
+}
+
+.header, .footer, .toolbar {
+    background-color: #A0A0A0;
+}
