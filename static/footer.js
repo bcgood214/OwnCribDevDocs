@@ -5,7 +5,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-      <style>
+      <!-- <style>
       #footer {
           background: #049c9c !important;
           border-color: #fcbc5c;
@@ -92,8 +92,9 @@ class Footer extends HTMLElement {
           text-transform: uppercase;
       }
 
+      </style> -->
 
-      </style>
+      
       <section id="footer">
           <div class="container">
               <div class="row text-center text-xs-center text-sm-left text-md-left">
