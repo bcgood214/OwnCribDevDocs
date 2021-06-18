@@ -12,14 +12,17 @@
     <script src="static/buyer_seller_info.js" type="text/javascript" defer></script>
     <script src="static/notifications.js" type="text/javascript" defer></script>
     <script src="static/local_listings.js" type="text/javascript" defer></script>
-    <script src="static/sidebar.js" type="text/javascript" defer></script>
+    <script src="static/toolbar.js" type="text/javascript" defer></script>
+    <script src="static/message.js" type="text/javascript" defer></script>
 
     <title>Dashboard</title>
   </head>
 
   <body>
 
-    <header-component></header-component>
+    <div class="card pt-5 pb-5 mt-5 box-shadow">
+      <header-component></header-component>
+    </div>
 
     <div class="container">
 
@@ -53,9 +56,7 @@
                  <loc-list-box></loc-list-box>
                </div>
                <div class="col-md-6">
-                 <div class="card pt-5 pb-5 mt-4 box-shadow">
-                   message center
-                 </div>
+                   <message-center></message-center>
                </div>
           </div>
 
@@ -65,7 +66,14 @@
     </div>
 
 
-    <footer-component></footer-component>
+    <div class="container">
+    <div class="row">
+    <div class="card mt-5 box-shadow">
+      <!-- footer -->
+      <footer-component></footer-component>
+    </div>
+  </div>
+</div>
 
   </body>
 

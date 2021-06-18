@@ -5,6 +5,8 @@ class Toolbar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
         body {
             margin: 0;
@@ -12,9 +14,6 @@ class Toolbar extends HTMLElement {
         }
 
         .sidebar {
-            margin: 0;
-            padding: 0;
-            width: 200px;
             background-color: #049C9C;
             position: fixed;
             height: 100%;
@@ -42,11 +41,6 @@ class Toolbar extends HTMLElement {
             color: white;
         }
 
-        div.content {
-            margin-left: 200px;
-            padding: 1px 16px;
-            height: 1000px;
-        }
 
     </style>
 
